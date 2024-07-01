@@ -5,11 +5,6 @@ const caixaResultados = document.querySelector(".caixa-resultados")
 const textoResultado = document.querySelector(".tesxo-resultado")
 
 
-
-
-
-
-
 const perguntas = [
     {
         enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
@@ -55,7 +50,7 @@ function mostraPergunta() {
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     mostraAlternativas()
 }
-
+mostraPergunta();
 
 function mostraAlternativas() {
     for (const alternativa of perguntaAtual.alternativas) {
@@ -65,4 +60,4 @@ function mostraAlternativas() {
     }
   }
 
-  mostraPergunta();
+  
