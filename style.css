@@ -14,18 +14,6 @@
     align-items: center;
     min-height: 100vh;
   }
-  /* body{
-    margin: 0;
-    background-color: var(--cor-fundo);
-  }
-
-  #menu{
-    color: var(--cor-texto);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  } */
 
   .caixa-principal{
     background-color: var(--cor-principal);
