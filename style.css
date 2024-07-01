@@ -5,6 +5,7 @@
     --cor-destaque: #2BDEFD;
     --cor-texto: #D7F9FF;
   }
+
   body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
@@ -13,12 +14,31 @@
     align-items: center;
     min-height: 100vh;
   }
+  /* body{
+    margin: 0;
+    background-color: var(--cor-fundo);
+  }
+
+  #menu{
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  } */
+
   .caixa-principal{
     background-color: var(--cor-principal);
     width: 90%;
     text-align: center;
     padding: 20px;
   }
+
+  .caixa-perguntas{
+    color: var(--cor-texto);
+  }
+
   h1{
     color: var(--cor-destaque);
+    text-align: center;
    }
